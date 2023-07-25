@@ -1,0 +1,239 @@
+.head {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.head::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+
+}
+
+.head #nav {
+    width: 100%;
+    height: 100px;
+    padding: 0 50px;
+    background-color: rgb(49, 48, 48) !important;
+    z-index: 1;
+}
+
+.head #nav li a {
+    font-weight: bold;
+    margin: 0 20px;
+    transition: 0.6s;
+    color: white;
+
+}
+
+.head #nav li a:hover {
+    color: rgb(238, 37, 37);
+}
+
+.navbar-brand {
+    color: rgb(238, 37, 37);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(238, 37, 37);
+    color: black;
+
+}
+
+.bottom-head {
+    width: 50%;
+    margin: 90px auto;
+
+
+}
+
+.bottom-head .row .text {
+    /* margin-top: 170px; */
+    font-size: 4.1rem;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.bottom-head .row p {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* --------end head part1------------------- */
+
+/* ----------------start part2 digital-------------------- */
+.digital-part2 {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.digital-part2 .top {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.digital-part2 .top h2 {
+    font-size: 2.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000d2;
+}
+
+.digital-part2 .top p {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: #0000009f;
+}
+
+.bottom-digital {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+
+.bottom-digital .card {
+    margin-top: 100px;
+    border: none;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    transition: 0.6s;
+}
+
+.card-img-top:hover {
+    transform: translateY(-20px);
+
+}
+
+.card-body a {
+    border: none;
+    font-weight: bold;
+
+}
+
+.card-body a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ------------end part2 digital---------------------- */
+
+/* --------------start part3 slider------------ */
+.slider-part3 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    margin-top: 100px;
+    border-bottom: 2px solid rgb(236, 233, 233);
+}
+
+.slider-part3 .left-slider {
+    width: 50%;
+
+}
+
+.slider-part3 .right-slider {
+    width: 50%;
+    padding: 0 100px;
+}
+
+.slider-part3 .right-slider h2 {
+    font-size: 3rem;
+    color: rgb(238, 37, 37);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.slider-part3 .right-slider p {
+    line-height: 1.6em;
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+/* -------------end part3 slider--------------------- */
+
+/* ------------------------start part4------------ */
+.part4 {
+    width: 100%;
+    min-height: 50vh;
+
+}
+
+.col {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+    transition: 1s;
+}
+
+.col:hover {
+    background-color: rgb(246, 248, 246);
+
+}
+
+.col img {
+    width: 60%;
+    height: 50%;
+    margin: 50px auto;
+    transition: 1s;
+    opacity: 0.5;
+
+}
+
+.col img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+
+}
+
+/* ------------end part4---------------- */
+
+/* ----------------------start part5 form----------------------- */
+.form-part5 {
+    width: 100%;
+    min-height: 70vh;
+    background-color: rgb(39, 39, 39);
+}
+
+.form-part5 form {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+/* ----------end part5 form-------------- */
